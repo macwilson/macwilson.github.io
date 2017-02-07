@@ -9,6 +9,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    
 }
 
 .modal {
@@ -58,7 +59,7 @@ html, body {
 }
 
 #bg h1 {
-    font-size: 600%;
+    font-size: 800%;
     font-family: "Merriweather", serif;
     margin-bottom: 0.5em;
     color: #FFF;
@@ -66,7 +67,7 @@ html, body {
 
 #bg #links a {
     background-color: #FFF;
-    padding: 18px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
     border-radius: 5px;
     margin: 8px;
     box-shadow: 0 3px rgba(0,0,0,.3);
@@ -83,23 +84,23 @@ html, body {
 
 #bg #description {
     color: #FFF;
-    font-size: 180%;
+    font-size: 250%;
     font-family: "Quicksand", sans-serif;
     padding: 0 10%;
     margin: 5em 0 5em 0;
     font-weight: 100;
 }
 
-#bg #footer {
+#bg #contact {
     color: #FFF;
-    font-size: 180%;
+    font-size: 250%;
     font-family: "Quicksand", sans-serif;
     padding: 5% 10%;
     font-weight: 100;
     background-color: #1BA39C;
 }
 
-#bg #footer a {
+#bg #contact a {
     text-decoration: none;
     color: #FFF;
     font-weight: 900;
@@ -107,16 +108,12 @@ html, body {
     background-color: #1BA39C;
 }
 
-#bg #footer a:hover {
+#bg #contact a:hover {
     text-decoration: underline;
     color: #FFF;
     font-weight: 900;
     bottom: 2px;
 }
-
-.card {
-}
-
 
 #bg .card {
     background-color: #FFF;
@@ -128,18 +125,20 @@ html, body {
 }
 
 .card img {
-    margin: 25px 0;
-    height: 130px;
+    margin: 2% 0;
+    height: 60%;
 }
 
 .card {
     position: relative;
     display: inline-block;
     margin: 5%;
-    padding: 10px;
-    width: 300px;
-    height: 300px;
+    width: 20%;
+    min-width: 400px;
+    height: 350px;
     border-radius: 15px;
+    vertical-align: top;
+    padding: 2% 0;
 }
 
 .card:hover {
@@ -148,24 +147,28 @@ html, body {
 
 .card h3 {
     font-family: "Quicksand", sans-serif;
-    margin: 2px;
-    font-size: 220%;
-
+    margin: 5px 2px 1% 2px;
+    font-size: 320%;
 }
 
+#none #footer p {
+  font-size: 120%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 
 #none h2 {
     color: #1BA39C;
-    margin: 2em 2em 1em 2em;
+    margin: 2em 2em 1em 1em;
     font-family: "Merriweather", serif;
-    font-size: 350%;
+    font-size: 500%;
 }
 
 #bg h2 {
     color: #FFF;
-    margin: 2em 2em 1em 2em;
+    margin: 2em 2em 1em 1em;
     font-family: "Merriweather", serif;
-    font-size: 350%;
+    font-size: 500%;
 }
 
 #none .card {
