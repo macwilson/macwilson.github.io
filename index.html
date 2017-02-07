@@ -2,271 +2,400 @@
 <html>
 
 <head>
+
   <title>Mackenzie Wilson</title>
-
-  <link href="style.css" type="text/css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   
+<!-- ---------------- LINKED FILES ----------------- -->
+  <!-- linked CSS -->
+  <link href="style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<!-- ------------------- END LINKED FILES ----------------- -->
 </head>
 
+
+
 <body>
-  <div class="row" id="bg">
+<!-- **************** MAIN CONTENT ********************** -->
+  
+  
+<!-- ------------- SITE HEADER ---------------------- -->
+  <div class="row" id="bg"> <!-- bg has green background and white text -->
     <h1 class="col-sm-12 text-center">mackenzie wilson</h1>
+	
+    <!-- clickable contact and social media icons -->
     <div class="col-sm-12 text-center" id="links">
       <a href="mailto:mackenziewilson@runbox.com" target="_top"><i class="fa fa-envelope fa-2x"></i></a>
       <a href="MackenzieWilsonResume.pdf" download="MackenzieWilsonResume.pdf" target="_blank"><i class="fa fa-file-text fa-2x"></i></a>
       <a href="https://www.linkedin.com/in/mackenzieswilson/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
       <a href="https://twitter.com/m_s_wilson_" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
     </div>
+	
+    <!-- self description -->
     <p class="col-sm-12 text-center" id="description">An apt, passionate biomedical engineering student at the University of Waterloo with a focus in medical imaging, software and surgical devices.</p>
   </div>
+<!-- ----------- END OF SITE HEADER ----------------- -->
 
-  <div class="row" id="none">
+  
+  
+<!-- ------------- EXPERIENCE -------------------------- -->
+  <div class="row" id="none"> <!-- "none" has white background and green text -->
     <div class="row" id="experience">
+	
+      <!-- EXPERIENCE CARDS -->
       <div class="col-sm-12 text-center">
+	  
         <div class="card">
           <img src="icons/synaptive.png" alt="Synaptive Logo"/>
           <h3>Optical Systems Engineer</h3>
         </div>
+		
         <div class="card">
           <img src="icons/natalnet.png" alt="NatalNet Logo"/>
           <h3>Co-Founder & Developer</h3>
         </div>
+		
         <div class="card">
           <img src="icons/vip.png" alt="VIP Lab Logo"/>
           <h3>Research Assistant</h3>
         </div>
+		
       </div>
+      <!-- END OF EXPERIENCE CARDS -->
+	  
     </div>
   </div>
-
+  
+  <!-- EXPERIENCE MODALS -->
   <div id="synaptive" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <a href="http://www.synaptivemedical.com" target="_blank">
-      <h4>Synaptive Medical:</h4>
-    </a>
-    <h5>Optical Systems Engineer</h5>
-    <p>As part of the Reveal project hardware team, I optimized an in-OR tissue-scanning sytem by designing an experiment on surface detection performance and statistically analyzing the results.</p>
-    <p>I also redesigned the layout of optomechanical components within the device to streamline OCT imaging and improve field serviceability.</p>
-    <p id="skills">Skills Used: Solidworks, statistics, v&v, test design, systems analysis, design for manufacture</p>
-    <p id="date">Jan-Apr 2017, Toronto ON.</p>
+	  <div class="modal-content">
+		<span class="close">&times;</span>
+    
+		<a href="http://www.synaptivemedical.com" target="_blank">
+		  <h4>Synaptive Medical:</h4>
+		</a>
+    
+		<h5>Optical Systems Engineer</h5>
+		<p>As part of the Reveal project hardware team, I optimized an in-OR tissue-scanning sytem by designing an experiment on surface detection performance and statistically analyzing the results.</p>
+		<p>I also redesigned the layout of optomechanical components within the device to streamline OCT imaging and improve field serviceability.</p>
+    
+		<p id="skills">Skills Used: Solidworks, statistics, v&v, test design, systems analysis, design for manufacture</p>
+		<p id="date">Jan-Apr 2017, Toronto ON.</p>
+    
+	  </div>
   </div>
-</div>
 
   <div id="plan" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <a href="https://www.plancanada.ca" target="_blank">
-      <h4>Plan International:</h4>
-    </a>
-    <h5>Co-Founder and Developer for "<a href="https://devpost.com/software/natalnet" target="_blank">NatalNet</a>"</h5>
-    <p>After winning the first place prize at the Break Inequality Hackathon 2016, NatalNet moved into the implementation phase as a not-for-profit startup.</p>
-    <p>Now working with Plan International (Canada) and <a href="http://devswithoutborders.org" target="_blank">Developers Without Borders</a>, I continued to develop front and back end software for the prize-winning web-app and SMS interface connection, seamlessly integrating several APIs.</p> 
-    <p>NatalNet aims to reduce the child and maternal mortality rates  in rural Bangladesh by connecting mothers to trained community healthcare workers for the care and information they need.</p>
-    <p id="skills">Skills Used: Javascript (Node.js), HTML, CSS, teamwork, object oriented programming, app design</p>
-    <p id="date">Nov 2016-Present, Toronto ON.</p>
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <a href="https://www.plancanada.ca" target="_blank">
+        <h4>Plan International:</h4>
+      </a>
+      
+      <h5>Co-Founder and Developer for "<a href="https://devpost.com/software/natalnet" target="_blank">NatalNet</a>"</h5>
+      <p>After winning the first place prize at the Break Inequality Hackathon 2016, NatalNet moved into the implementation phase as a not-for-profit startup.</p>
+      <p>Now working with Plan International (Canada) and <a href="http://devswithoutborders.org" target="_blank">Developers Without Borders</a>, I continued to develop front and back end software for the prize-winning web-app and SMS interface connection, seamlessly integrating several APIs.</p> 
+      <p>NatalNet aims to reduce the child and maternal mortality rates  in rural Bangladesh by connecting mothers to trained community healthcare workers for the care and information they need.</p>
+      
+      <p id="skills">Skills Used: Javascript (Node.js), HTML, CSS, teamwork, object oriented programming, app design</p>
+      <p id="date">Nov 2016-Present, Toronto ON.</p>
+      
+    </div>
   </div>
-</div>
 
   <div id="viplab" class="modal">
-  <div class="modal-content">
-    <span class="close" id="close3">&times;</span>
-    <a href="https://uwaterloo.ca/vision-image-processing-lab/" target="_blank">
-      <h4>Vision and Image Processing Research Group:</h4>
-    </a>
-    <h5>Research Assistant</h5>
-    <p>I redesigned the optical, mechanical and electrical systems of a novel hemodynamic imaging system.</p>
-    <p>Additionally I proposed and integrated thermal imaging functionality into the system for complete metabolic biomarker monitoring, as outlined in a conference presentation and publication.</p>
-    <p>Lastly I investigated the electrical and optical requirements for implementation of multispectrality in order for the system to gather deeper blood nutrient data.</p>
-    <p id="skills">Skills Used: SolidWorks, Matlab, Arduino, circuit design and analysis, PCB design, machining, 3D printing, signal processing, data analysis, experiment design, academic writing, communication/presentation skills </p>
-    <p id="date">May-Dec 2016, Waterloo ON.</p>
+    <div class="modal-content">
+      <span class="close" id="close3">&times;</span>
+      
+      <a href="https://uwaterloo.ca/vision-image-processing-lab/" target="_blank">
+        <h4>Vision and Image Processing Research Group:</h4>
+      </a>
+      
+      <h5>Research Assistant</h5>
+      <p>I redesigned the optical, mechanical and electrical systems of a novel hemodynamic imaging system.</p>
+      <p>Additionally I proposed and integrated thermal imaging functionality into the system for complete metabolic biomarker monitoring, as outlined in a conference presentation and publication.</p>
+      <p>Lastly I investigated the electrical and optical requirements for implementation of multispectrality in order for the system to gather deeper blood nutrient data.</p>
+      
+      <p id="skills">Skills Used: SolidWorks, Matlab, Arduino, circuit design and analysis, PCB design, machining, 3D printing, signal processing, data analysis, experiment design, academic writing, communication/presentation skills </p>
+      <p id="date">May-Dec 2016, Waterloo ON.</p>
+      
+    </div>
   </div>
-</div>
+  <!-- END OF EXPERIENCE MODALS -->
+  
+<!-- ------------ END OF EXPERIENCE SECTION ------------------ -->
 
-  <div class="row" id="bg">
+
+  
+  
+<!-- --------------- PROJECTS ---------------- -->
+  <div class="row" id="bg"> <!-- bg has green background and white text -->
 
     <div class="row">
-      <h2 class="col-sm-12">projects</h2>
+      <h2 class="col-sm-12">projects</h2> <!-- title -->
     </div>
-
+    
+    <!-- PROJECT CARDS -->
     <div class="row" id="projects">
       <div class="col-sm-12 text-center">
+      
         <div class="card">
           <img src="icons/poweredarm.png" alt="Powered Arm Logo"/>
           <h3>Powered Arm</h3>
         </div>
+        
         <div class="card">
           <img src="icons/natalnet-1.png" alt="NatalNet Logo"/>
           <h3>NatalNet</h3>
         </div>
+        
         <div class="card">
           <img src="icons/antifreeze.png" alt="AntiFreeze Logo"/>
           <h3>AntiFreeze</h3>
         </div>
+        
         <div class="card">
           <img src="icons/shelmet.png" alt="Shelmet cartoon"/>
           <h3>The Shelmet</h3>
         </div>
+        
         <div class="card">
           <img src="icons/furniture.png" alt="Tools cartoon"/>
           <h3>Furniture Design</h3>
         </div>
+        
         <div class="card">
           <img src="icons/website.png" alt="HTML symbol"/>
           <h3>Website</h3>
         </div>
+        
       </div>
     </div>
+    <!-- END OF PROJECT CARDS -->
 
   </div>
 
-<div id="poweredarm" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h4>"Cybathlon Powered Arm Team":</h4>
-    <h5>University of Waterloo Biomechatronics Club</h5>
-    <img src="" alt=""/>
-    <h6>> Mechanical Subteam Member</h6>
-    <p>Did some things </p>
-    <p id="skills">Skills Used: </p>
-    <p id="date">Jan 2016-Present, Waterloo ON.</p>
-  </div>
-</div>
-
-<div id="natalnet" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <a href="" target="_blank">
-      <h4>"NatalNet":</h4>
-    </a>
-    <h5>Break Inequality Hackathon 2016</h5>
-    <img src="img/google.jpg" alt="Photo of NatalNet after winning the Break Inequality Hackathon"/>
-    <h6>> Full Stack Developer</h6>
-    <p>Did some things </p>
-    <p id="skills">Skills Used: </p>
-    <p id="date">Nov 2016, Kitchener ON.</p>
-  </div>
-</div>
-
-<div id="antifreeze" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h4>"AntiFreeze":</h4>
-    <h5>University of Waterloo, Freezing of Gait Project</h5>
-    <img src="" alt=""/>
-    <h6>> Electrical Lead and Team Member</h6>
-    <p>Did some things </p>
-    <p id="skills">Skills Used: </p>
-    <p id="date">Sept-Dec 2016, Waterloo ON.</p>
-  </div>
-</div>
-
-<div id="shelmet" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h4>"The Shelmet":</h4>
-    <h5>University of Waterloo, Global Health Design Project</h5>
-    <h6>> Project Manager and Mechanical Developer</h6>
-    <p>Did some things </p>
-    <p id="skills">Skills Used: </p>
-    <p id="date">Sept-Dec 2015, Waterloo ON.</p>
-  </div>
-</div>
-
-<div id="furniture" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h4>Furniture Refurbishing and Design:</h4>
-    <h5>Personal Project</h5>
-    <img src="" alt=""/>
-    <p>Did some things </p>
-    <p id="skills">Skills Used: </p>
-    <p id="date">Aug 2014-Present</p>
-  </div>
-</div>
-
-<div id="site" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h4>"mackenziewilson.ca":</h4>
-    <h5>Personal Website Project</h5>
-    <p>Did some things </p>
-    <p id="skills">Skills Used: </p>
-    <p id="date">Jan 2017</p>
-  </div>
-</div>
-
-  <div class="row" id="none">
-    <div class="row">
-      <h2 class="col-sm-12">honours</h2>
+  <!-- PROJECT MODALS -->
+  <div id="poweredarm" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <h4>"Cybathlon Powered Arm Team":</h4>
+      <h5>University of Waterloo Biomechatronics Club</h5>
+      
+      <img src="" alt=""/>
+      
+      <h6>> Mechanical Subteam Member</h6>
+      <p>Did some things </p>
+      
+      <p id="skills">Skills Used: </p>
+      <p id="date">Jan 2016-Present, Waterloo ON.</p>
+      
     </div>
+  </div>
 
+  <div id="natalnet" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <a href="" target="_blank">
+        <h4>"NatalNet":</h4>
+      </a>
+      <h5>Break Inequality Hackathon 2016</h5>
+      
+      <img src="img/google.jpg" alt="Photo of NatalNet after winning the Break Inequality Hackathon"/>
+      
+      <h6>> Full Stack Developer</h6>
+      <p>Did some things </p>
+      
+      <p id="skills">Skills Used: </p>
+      <p id="date">Nov 2016, Kitchener ON.</p>
+      
+    </div>
+  </div>
+
+  <div id="antifreeze" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <h4>"AntiFreeze":</h4>
+      <h5>University of Waterloo, Freezing of Gait Project</h5>
+      
+      <img src="" alt=""/>
+      
+      <h6>> Electrical Lead and Team Member</h6>
+      <p>Did some things </p>
+      
+      <p id="skills">Skills Used: </p>
+      <p id="date">Sept-Dec 2016, Waterloo ON.</p>
+      
+    </div>
+  </div>
+
+  <div id="shelmet" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <h4>"The Shelmet":</h4>
+      <h5>University of Waterloo, Global Health Design Project</h5>
+      
+      <h6>> Project Manager and Mechanical Developer</h6>
+      
+      <p>Did some things </p>
+      
+      <p id="skills">Skills Used: </p>
+      <p id="date">Sept-Dec 2015, Waterloo ON.</p>
+      
+    </div>
+  </div>
+
+  <div id="furniture" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <h4>Furniture Refurbishing and Design:</h4>
+      <h5>Personal Project</h5>
+      
+      <img src="" alt=""/>
+      
+      <p>Did some things </p>
+      
+      <p id="skills">Skills Used: </p>
+      <p id="date">Aug 2014-Present</p>
+      
+    </div>
+  </div>
+
+  <div id="site" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <h4>"mackenziewilson.ca":</h4>
+      <h5>Personal Website Project</h5>
+      
+      <p>Did some things </p>
+      
+      <p id="skills">Skills Used: </p>
+      <p id="date">Jan 2017</p>
+      
+    </div>
+  </div>
+  <!-- END OF PROJECT MODALS -->
+
+<!-- ------------- END OF PROJECTS ---------------- -->
+
+
+
+<!-- ---------------- HONOURS --------------------- -->
+  <div class="row" id="none">
+  
+    <div class="row">
+      <h2 class="col-sm-12">honours</h2> <!-- title -->
+    </div>
+    
+    <!-- HONOURS CARDS -->
     <div class="row" id="honours">
       <div class="col-sm-12 text-center">
+      
         <div class="card">
           <img src="icons/book.png" alt="Book cartoon"/>
           <h3>Publications</h3>
         </div>
+        
         <div class="card">
           <img src="icons/trophy.png" alt="Trophy cartoon"/>
           <h3>Awards</h3>
         </div>
+        
         <div class="card">
           <img src="icons/star.png" alt="Star cartoon"/>
           <h3>Honours</h3>
         </div>
+        
       </div>
     </div>
-
+    <!-- END OF HONOURS CARDS -->
+    
   </div>
 
-<div id="publications" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h4>Publications</h4>
-    <ol>
-      <li>M. Wilson et al. </li>
-    </ol>
-  </div>
-</div>
-
-<div id="awards" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h4>Awards</h4>
-    <ol>
-      <li></li>
-    </ol>
-  </div>
-</div>
-
-<div id="otherhonours" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h4>Honours</h4>
-    <ol>
-      <li></li>
-    </ol>
-  </div>
-</div>
-
-  <div class="row" id="bg">
-    <div class="col-sm-12 text-center" id="footer">
-      <p>Check out my <a href="MackenzieWilsonResume.pdf" download="MackenzieWilsonResume.pdf" target="_blank">resume</a> or <a href="https://www.linkedin.com/in/mackenzieswilson/" target="_blank">LinkedIn</a> for more.</p>
-      <p>Don't hesitate to reach out via <a href="mailto:mackenziewilson@runbox.com" target="_top">email</a>, or even <a href="https://twitter.com/m_s_wilson_" target="_blank">Twitter</a>!</p>
+  <!-- HONOURS MODALS -->
+  <div id="publications" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <h4>Publications</h4>
+      <ol>
+        <li>M. Wilson et al. </li>
+      </ol>
+      
     </div>
   </div>
 
+  <div id="awards" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <h4>Awards</h4>
+      <ol>
+        <li></li>
+      </ol>
+      
+    </div>
+  </div>
+
+  <div id="otherhonours" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <h4>Honours</h4>
+      <ol>
+        <li></li>
+      </ol>
+      
+    </div>
+  </div>
+  <!-- END OF HONOURS MODALS -->
+  
+<!-- ---------------- END OF HONOURS SECTION --------------- -->
 
 
+
+<!-- --------------- CONTACT REMINDER ----------------- -->
+  <div class="row" id="bg"> 
+    <div class="col-sm-12 text-center" id="footer">
+    
+      <p>Check out my <a href="MackenzieWilsonResume.pdf" download="MackenzieWilsonResume.pdf" target="_blank">resume</a> or <a href="https://www.linkedin.com/in/mackenzieswilson/" target="_blank">LinkedIn</a> for more.</p>
+      <p>Don't hesitate to reach out via <a href="mailto:mackenziewilson@runbox.com" target="_top">email</a>, or even <a href="https://twitter.com/m_s_wilson_" target="_blank">Twitter</a>!</p>
+      
+    </div>
+  </div>
+<!-- -------------- END OF CONTACT REMINDER ----------- -->
+
+
+<!-- ***************** END OF MAIN CONTENT ******************* -->
+  
+  
+  
+<!-- ------------- FOOTER ---------------- -->
+  <div class="row" id="none"> 
+    <div class="col-sm-12 text-center" id="footer2">
+      <p>Made by Mackenzie S. Wilson. Last updated 2017-02-07.</p>
+    </div>
+  </div>
+<!-- ------------- END OF FOOTER ---------------- -->
+
+
+
+<!-- ----------- JAVASCRIPT LINKS ----------- -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!--loads jQuery-->
   <script src="app.js"></script> <!-- loads app.js -->
+<!-- ----------- END JS LINKS --------------- -->
+  
 </body>
 
 </html>
