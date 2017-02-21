@@ -54,24 +54,26 @@ html, body {
 
 #bg {
     background-color: #1BA39C;
-    padding: 30px 0;
+    padding: 20px 0;
     margin: 0;
 }
 
 #bg h1 {
-    font-size: 800%;
+    font-size: 120px;
     font-family: "Merriweather", serif;
     margin-bottom: 0.5em;
+    margin-top: 0.8em;
     color: #FFF;
 }
 
 #bg #links a {
     background-color: #FFF;
-    padding: 30px 10px 10px 10px;
+    padding: 10px;
     border-radius: 5px;
     margin: 8px;
     box-shadow: 0 3px rgba(0,0,0,.3);
     position: relative;
+    display: inline-block;
 }
 
 #bg #links a:hover {
@@ -132,7 +134,7 @@ html, body {
 .card {
     position: relative;
     display: inline-block;
-    margin: 5%;
+    margin: 5% 2%;
     width: 20%;
     min-width: 400px;
     height: 350px;
@@ -238,6 +240,7 @@ html, body {
     display: block;
     border: 2px solid #1BA39C;
     border-radius: 20px;
+    margin-bottom: 1em;
 }
 
 .modal h6 {
@@ -245,4 +248,22 @@ html, body {
     font-family: "Merriweather", serif;
     font-size: 1.4em;
     font-style: italic;
+}
+
+ol {
+    margin-left: 20px;
+    font-size: 14pt;
+    font-family: "Quicksand", sans-serif;
+}
+
+#awards h6 {
+    margin-top: 1em;
+}
+
+#otherhonours h6 {
+    margin-top: 1em;
+}
+
+#publications ol {
+    margin-top: 1em;
 }
