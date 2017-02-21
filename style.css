@@ -129,7 +129,6 @@ html, body {
 .card img {
     margin: 2% 0;
     height: 60%;
-    min-width: 200px;
 }
 
 .card {
@@ -151,7 +150,7 @@ html, body {
 .card h3 {
     font-family: "Quicksand", sans-serif;
     margin: 5px 2px 1% 2px;
-    font-size: 320%;
+    font-size: 20pt;
 }
 
 #none #footer p {
@@ -232,7 +231,7 @@ html, body {
 
 .modal img {
     max-width: 500px;
-    min-width: 100px;
+    min-width: 200px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
