@@ -129,6 +129,7 @@ html, body {
 .card img {
     margin: 2% 0;
     height: 60%;
+    min-width: 200px;
 }
 
 .card {
@@ -136,7 +137,7 @@ html, body {
     display: inline-block;
     margin: 5% 2%;
     width: 20%;
-    min-width: 400px;
+    min-width: 300px;
     height: 350px;
     border-radius: 15px;
     vertical-align: top;
