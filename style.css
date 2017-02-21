@@ -59,7 +59,7 @@ html, body {
 }
 
 #bg h1 {
-    font-size: 80pt;
+    font-size: 100pt;
     font-family: "Merriweather", serif;
     margin-bottom: 0.5em;
     margin-top: 0.8em;
@@ -129,7 +129,7 @@ html, body {
 .card img {
     position: relative;
     margin: 3% 0;
-    height: 45%;
+    height: 55%;
     vertical-align: center;
 }
 
@@ -138,9 +138,8 @@ html, body {
     display: inline-block;
     margin: 5% 2%;
     width: 30%;
-    max-width: 400px;
-    min-width: 300px;
-    height: 22em;
+    min-width: 400px;
+    height: 26em;
     border-radius: 15px;
     vertical-align: top;
     padding: 2% 0;
@@ -153,7 +152,7 @@ html, body {
 .card h3 {
     font-family: "Quicksand", sans-serif;
     margin: 5px 2px 1% 2px;
-    font-size: 30pt;
+    font-size: 35pt;
 }
 
 #none #footer p {
