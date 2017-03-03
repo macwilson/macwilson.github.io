@@ -294,15 +294,15 @@ ol {
         }
 
         #none h2 {
-            font-size: 600%;
+            font-size: 700%;
         }
 
         #bg h2 {
-            font-size: 600%;
+            font-size: 700%;
         }
 
         .card h3 {
-        font-size: 70pt;
+        font-size: 60pt;
 }
         .card img {
             height: 55%;
@@ -328,11 +328,15 @@ ol {
     }
 
     .modal p {
-        font-size: 2.5em;
+        font-size: 2.8em;
     }
 
     .modal .modal-content .close {
         font-size: 5em;
+    }
+
+    #none #footer p {
+        font-size: 200%;
     }
 
     }
