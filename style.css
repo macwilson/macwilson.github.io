@@ -59,7 +59,7 @@ html, body {
 }
 
 #bg h1 {
-    font-size: 100pt;
+    font-size: 10vw;
     font-family: "Merriweather", serif;
     margin-bottom: 0.5em;
     margin-top: 0.8em;
@@ -68,7 +68,7 @@ html, body {
 
 #bg #links a {
     background-color: #FFF;
-    padding: 10px;
+    padding: 25px;
     border-radius: 5px;
     margin: 8px;
     box-shadow: 0 3px rgba(0,0,0,.3);
@@ -86,7 +86,7 @@ html, body {
 
 #bg #description {
     color: #FFF;
-    font-size: 250%;
+    font-size: 280%;
     font-family: "Quicksand", sans-serif;
     padding: 0 10%;
     margin: 5em 0 5em 0;
@@ -136,8 +136,8 @@ html, body {
 .card {
     position: relative;
     display: inline-block;
-    margin: 5% 2%;
-    width: 30%;
+    margin: 5% 1%;
+    width: 28%;
     min-width: 400px;
     height: 26em;
     border-radius: 15px;
@@ -165,14 +165,14 @@ html, body {
     color: #1BA39C;
     margin: 2em 2em 1em 1em;
     font-family: "Merriweather", serif;
-    font-size: 500%;
+    font-size: 6vw;
 }
 
 #bg h2 {
     color: #FFF;
     margin: 2em 2em 1em 1em;
     font-family: "Merriweather", serif;
-    font-size: 500%;
+    font-size: 6vw;
 }
 
 #none .card {
@@ -190,7 +190,7 @@ html, body {
     display: inline-block;
     color: #1BA39C;
     font-family: "Merriweather", serif;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .modal h4:hover {
@@ -201,7 +201,7 @@ html, body {
     position: relative;
     display: inline-block;
     font-family: "Quicksand", sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 1em;
 }
 
@@ -216,14 +216,14 @@ html, body {
 
 .modal p {
     font-family: "Quicksand", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.8em;
     color: #000;
 }
 
 .modal #skills {
     color: #1BA39C;
     font-weight: 800;
-    padding: 10px;
+    padding: 15px;
 }
 
 .modal #date {
@@ -248,7 +248,7 @@ html, body {
 .modal h6 {
     color: #1BA39C;
     font-family: "Merriweather", serif;
-    font-size: 1.4em;
+    font-size: 2em;
     font-style: italic;
 }
 
