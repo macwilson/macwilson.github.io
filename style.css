@@ -69,7 +69,7 @@ html, body {
 #bg #links a {
     background-color: #FFF;
     padding: 25px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 8px;
     box-shadow: 0 3px rgba(0,0,0,.3);
     position: relative;
@@ -226,6 +226,16 @@ html, body {
     padding: 15px;
 }
 
+.modal .modal-content .close {
+    float: right ;
+    color: #1BA39C;
+    padding: 0 15px 10px 15px;
+    border-radius: 8px;
+    font-size: 3em;
+    opacity: 0.5;
+    border: 2px solid #1BA39C;
+}
+
 .modal #date {
     color: #787777;
     font-style: italic;
@@ -253,8 +263,8 @@ html, body {
 }
 
 ol {
-    margin-left: 20px;
-    font-size: 14pt;
+    margin-left: 35px;
+    font-size: 20pt;
     font-family: "Quicksand", sans-serif;
 }
 
@@ -289,5 +299,39 @@ ol {
         #bg h2 {
             font-size: 600%;
         }
+
+        .card h3 {
+        font-size: 60pt;
+}
+        .card img {
+            height: 80%;
+        }
+
+        #bg #description {
+    font-size: 400%;
+}
+
+#bg #contact {
+    font-size: 380%;
+ }
+    .modal h4 {
+        font-size: 5em;
+    }
+
+    .modal h5 {
+        font-size: 5em;
+    }
+
+    .modal h6 {
+        font-size: 4em;
+    }
+
+    .modal p {
+        font-size: 2.5em;
+    }
+
+    .modal .modal-content .close {
+        font-size: 5em;
+    }
 
     }
