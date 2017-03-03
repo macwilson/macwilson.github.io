@@ -139,7 +139,7 @@ html, body {
     margin: 5% 1%;
     width: 28%;
     min-width: 400px;
-    height: 38em;
+    height: 26em;
     border-radius: 15px;
     vertical-align: top;
     padding: 2% 0;
@@ -286,6 +286,7 @@ ol {
         .card {
             width: 90%;
             min-width: 300px;
+            height: 48em;
         }
 
         #bg h1 {
