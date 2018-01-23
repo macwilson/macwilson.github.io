@@ -3,9 +3,9 @@
 
 <head>
 
-  <title>Mackenzie Wilson</title>
+  <title>Mackenzie - HOME</title>
   
-<!-- ---------------- LINKED FILES ----------------- -->
+<!--  LINKED FILES  -->
   <!-- linked CSS -->
   <link href="style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -13,80 +13,182 @@
   
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-<!-- ------------------- END LINKED FILES ----------------- -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<!--  END LINKED FILES  -->
 </head>
 
 
 
 <body>
-<!-- **************** MAIN CONTENT ********************** -->
-  
-  
-<!-- ------------- SITE HEADER ---------------------- -->
-  <div class="row" id="bg"> <!-- bg has green background and white text -->
+  <script>document.body.className += ' fade-out';</script>
+  <!-- START HEADER -->
+  <div class="row" id="header"> 
     <h1 class="col-sm-12 text-center">mackenzie wilson</h1>
-	
+  
     <!-- clickable contact and social media icons -->
     <div class="col-sm-12 text-center" id="links">
-      <a href="mailto:mackenziewilson@runbox.com" target="_top"><i class="fa fa-envelope fa-5x"></i></a>
-      <a href="MackenzieWilsonResume.pdf" download="MackenzieWilsonResume.pdf" target="_blank"><i class="fa fa-file-text fa-5x"></i></a>
-      <a href="https://www.linkedin.com/in/mackenzieswilson/" target="_blank"><i class="fa fa-linkedin fa-5x"></i></a>
-      <a href="https://twitter.com/m_s_wilson_" target="_blank"><i class="fa fa-twitter fa-5x"></i></a>
+      <a href="mailto:mackenziewilson@runbox.com" target="_top"><i class="fa fa-envelope fa" style="font-size: 6vw;"></i></a></i></a>
+      <a href="MackenzieWilsonResume.pdf" download="MackenzieWilsonResume.pdf" target="_blank"><i class="fa fa-file-text fa" style="font-size: 6vw;""></i></a>
+      <!--<a href="blog.html"><i class="fa fa-lightbulb-o fa" style="font-size: 5vw;"></i></a></i></a>-->
+      <a href="https://www.linkedin.com/in/mackenzieswilson/" target="_blank"><i class="fa fa-linkedin fa" style="font-size: 6vw;"></i></a></i></a>
+      <a href="https://twitter.com/m_s_wilson_" target="_blank"><i class="fa fa-twitter fa" style="font-size: 6vw;"></i></a></i></a>
     </div>
-	
-    <!-- self description -->
-    <p class="col-sm-12 text-center" id="description">An apt, passionate biomedical engineering student at the University of Waterloo with a focus in medical imaging, software and surgical devices.</p>
   </div>
-<!-- ----------- END OF SITE HEADER ----------------- -->
+  <!-- END HEADER -->
 
-  
-  
-<!-- ------------- EXPERIENCE -------------------------- -->
-  <div class="row" id="none"> <!-- "none" has white background and green text -->
-    <div class="row" id="experience">
-	
-      <!-- EXPERIENCE CARDS -->
+
+  <div class="row" id="description"> <!-- DESCRIPTION BLOCK -->
+    <p class="col-sm-12 text-center"> A well rounded, independent biomedical engineering student with almost two years experience improving project and system performance in various fields and a passion for technology that helps people. <br/> <br/> Click the links above to get in touch, read my <a href="MackenzieWilsonResume.pdf" download="MackenzieWilsonResume.pdf" target="_blank">resume</a> and see my social media. Scroll to learn more about my professional experience.</p>
+  </div>
+
+
+  <!-- START VISIBLE CONTENT -->
+  <div class="row" id="content"> 
+    <!--  START EXPERIENCE CARDS -->
+    <div class="row">
+      <h2 class="col-sm-8">experience</h2> <!-- title -->
+    </div>
+    <div class="row" id="experience"> <!-- experience card container -->
       <div class="col-sm-12 text-center">
-	  
-        <div class="card">
+        <div class="card"> <!-- card 1 -->
+          <img src="icons/ppo.png" alt="P&P Logo"/>
+          <h3>R&D / Hardware Specialist</h3>
+        </div>
+        <div class="card"> <!-- card 2 -->
           <img src="icons/synaptive.png" alt="Synaptive Logo"/>
           <h3>Optical Systems Engineer</h3>
         </div>
-		
-        <div class="card">
+        <div class="card"> <!-- card 3 -->
           <img src="icons/natalnet.png" alt="NatalNet Logo"/>
           <h3>Co-Founder & Developer</h3>
         </div>
-		
-        <div class="card">
-          <img src="icons/vip.png" alt="VIP Lab Logo"/>
+        <div class="card"> <!-- card 4 -->
+          <img src="icons/viplogo.png" alt="VIP Lab Logo"/>
           <h3>Research Assistant</h3>
         </div>
-		
       </div>
-      <!-- END OF EXPERIENCE CARDS -->
-	  
+    </div>
+    <!-- END EXPERIENCE CARDS -->
+
+    <!-- START PROJECT CARDS -->
+    <div class="row">
+      <h2 class="col-sm-8">projects</h2> <!-- title -->
+    </div>
+    <div class="row" id="projects"> <!-- project card container -->
+      <div class="col-sm-12 text-center">
+        <div class="card"> <!-- card 1 -->
+          <img src="icons/stairs.png" alt="Cartoon of a moving phone with stairs on the screen."/>
+          <h3>Stair Tracker</h3>
+        </div>
+        <div class="card"> <!-- card 2 -->
+          <img src="icons/poweredarm.png" alt="Powered Arm cartoon"/>
+          <h3>Powered Arm</h3>
+        </div>
+        <div class="card">  <!-- card 3 -->
+          <img src="icons/natalnet1.png" alt="NatalNet alternative logo"/>
+          <h3>NatalNet</h3>
+        </div>
+        <div class="card"> <!-- card 4 -->
+          <img src="icons/antifreeze.png" alt="A cartoon of a boot with a lightning bolt on it."/>
+          <h3>AntiFreeze</h3>
+        </div>
+        <div class="card"> <!-- card 5 -->
+          <img src="icons/shelmet.png" alt="A cartoon helmet."/>
+          <h3>The Shelmet</h3>
+        </div>
+        <div class="card"> <!-- card 6 -->
+          <img src="icons/furniture.png" alt="Tools cartoon"/>
+          <h3>Furniture Design</h3>
+        </div>
+        <div class="card"> <!-- card 7 -->
+          <img src="icons/website.png" alt="HTML symbol"/>
+          <h3>Website</h3>
+        </div>
+      </div>
+    </div>
+    <!-- END PROJECT CARDS -->
+  
+    <!--  START HONOURS CARDS -->
+    <div class="row">
+      <h2 class="col-sm-12">honours</h2> <!-- title -->
+    </div>
+    <div class="row" id="honours"> <!-- honours card container -->
+      <div class="col-sm-12 text-center">
+        <div class="card"> <!-- card 1 -->
+          <img src="icons/book.png" alt="Book cartoon"/>
+          <h3>Publications</h3>
+        </div>
+        <div class="card"> <!-- card 2 -->
+          <img src="icons/trophy.png" alt="Trophy cartoon"/>
+          <h3>Awards</h3>
+        </div>
+        <div class="card"> <!-- card 3 -->
+          <img src="icons/star.png" alt="Star cartoon"/>
+          <h3>Honours</h3>
+        </div>
+      </div>
+    </div>
+    <!-- END HONOURS CARDS -->
+
+    <!-- FOOTER -->
+    <!-- END FOOTER -->
+
+<!-- --------------- CONTACT REMINDER ----------------- -->
+  <div class="row" id="contact"> 
+    <div class="col-sm-12 text-center" id="links">
+      <a href="mailto:mackenziewilson@runbox.com" target="_top"><i class="fa fa-envelope fa" style="font-size: 6vw;"></i></a></i></a>
+      <a href="MackenzieWilsonResume.pdf" download="MackenzieWilsonResume.pdf" target="_blank"><i class="fa fa-file-text fa" style="font-size: 6vw;""></i></a>
+      <!--<a href="blog.html"><i class="fa fa-lightbulb-o fa" style="font-size: 5vw;"></i></a></i></a>-->
+      <a href="https://www.linkedin.com/in/mackenzieswilson/" target="_blank"><i class="fa fa-linkedin fa" style="font-size: 6vw;"></i></a></i></a>
+      <a href="https://twitter.com/m_s_wilson_" target="_blank"><i class="fa fa-twitter fa" style="font-size: 6vw;"></i></a></i></a>
     </div>
   </div>
+<!-- -------------- END OF CONTACT REMINDER ----------- -->
+
+
+  </div>
+  <!-- END VISIBLE CONTENT -->
+
   
-  <!-- EXPERIENCE MODALS -->
-  <div id="synaptive" class="modal">
-	  <div class="modal-content">
-		<span class="close">&times;</span>
+
+  <!-- START OF MODALS -->
+
+  <!-- EXPERIENCE -->
+  <div id="ppo" class="modal"> <!-- modal 1 -->
+    <div class="modal-content">
+    <span class="close">&times;</span>
     
-		<a href="http://www.synaptivemedical.com" target="_blank">
-		  <h4>Synaptive Medical:</h4>
-		</a>
+    <a href="https://ppo.ca" target="_blank">
+      <h4 id='link'>P&P Optica:</h4>
+    </a>
     
-		<h5>Optical Systems Engineer</h5>
-		<p>I led a major analysis project on an in-OR ex-vivo tissue imaging system that resulted in its improvement and optimization. I planned experiments, analyzed data and formed recommendations for system limits and algorithm design.</p>
-		<p>Other projects I completed included the analysis and comparison of replacement optical components for the system, and design, development and technical documentation of tools for the manufacture of the system.</p>
+    <h5>R&D / Hardware Specialist</h5>
+    <p>I contributed to the research, design and implementation of an all-in-one imaging system for quality control in the food and beverage industry. I designed specifications and extensive testing protocols for new parts, performed detailed data analysis, made various imperative, fact-based design and project decisions, and implemented changes and solutions.</p>
+    <p>I also spearheaded the redesign and improvement of the manufacturing facility and workflow to allow development of large imaging systems.</p>
+    <p>Additional regular tasks included working with suppliers and machinists, coordinating the integration of systems in Ontario food processing plants, designing and manufacturing custom mechanical and electrical parts, and assisting the Software team with an image processing and classification pipeline.</p>
     
-		<p id="skills">Skills Used: Solidworks, statistics, R, systems analysis, design for manufacture, optical theory, C++, Arduino</p>
-		<p id="date">Jan-Apr 2017, Toronto ON.</p>
+    <p id="skills">Skills Used: Solidworks, experiment design, data analysis, mechanical design, cabling, leadership, decision making, Python, process improvement</p>
+    <p id="date">Aug 2017-Feb 2018, Waterloo ON.</p>
     
-	  </div>
+    </div>
+  </div>
+
+  <div id="synaptive" class="modal"> <!-- modal 2 -->
+    <div class="modal-content">
+    <span class="close">&times;</span>
+    
+    <a href="http://www.synaptivemedical.com" target="_blank">
+      <h4 id='link'>Synaptive Medical:</h4>
+    </a>
+    
+    <h5>Optical Systems Engineer</h5>
+    <p>I tripled the efficiency of an in-OR ex-vivo tissue imaging system by spearheading a major investigation and analysis project. I planned experiments, analyzed data, formed and presented recommendations for system limits and algorithm design.</p>
+    <p>Other projects I completed included research and sourcing of new parts for further system improvement, and increased production productivity by developing new tools and manufacturing processes for assembly of system parts.</p>
+    
+    <p id="skills">Skills Used: Solidworks, R, experiment design, data analysis, process improvement, communication, C++, Arduino</p>
+    <p id="date">Jan-Apr 2017, Toronto ON.</p>
+    
+    </div>
   </div>
 
   <div id="plan" class="modal">
@@ -94,15 +196,15 @@
       <span class="close">&times;</span>
       
       <a href="https://www.plancanada.ca" target="_blank">
-        <h4>Plan International:</h4>
+        <h4 id='link'>NatalNet:</h4>
       </a>
       
-      <h5>Co-Founder and Developer for "<a href="https://devpost.com/software/natalnet" target="_blank">NatalNet</a>"</h5>
+      <h5>Co-Founder and Developer </h5>
       <p>After winning the first place prize at the Break Inequality Hackathon 2016, NatalNet moved into the implementation phase as a not-for-profit startup.</p>
-      <p>Now working with Plan International (Canada) and <a href="http://devswithoutborders.org" target="_blank">Developers Without Borders</a>, I continue to develop front and back end software for the web-app and SMS interface connection, seamlessly integrating several APIs.</p> 
+      <p>Now working with Plan International (Canada) and Developers Without Borders, my responsibilities include developing front and back end software for the web-app and SMS interface connection, seamlessly integrating several APIs.</p> 
       <p>NatalNet aims to reduce child and maternal mortality rates in rural Bangladesh by empowering and connecting pregnant women to the health information and care they require.</p>
       
-      <p id="skills">Skills Used: Javascript (Node.js), HTML, CSS, teamwork, object oriented programming, app design</p>
+      <p id="skills">Skills Used: Javascript (Node.js), HTML, CSS, teamwork, API and No-SQL database integration, app design</p>
       <p id="date">Nov 2016-Present, Toronto ON.</p>
       
     </div>
@@ -113,74 +215,41 @@
       <span class="close" id="close3">&times;</span>
       
       <a href="https://uwaterloo.ca/vision-image-processing-lab/" target="_blank">
-        <h4>Vision and Image Processing Research Group:</h4>
+        <h4 id='link'>Vision and Image Processing Lab:</h4>
       </a>
       
       <h5>Research Assistant</h5>
-      <p>I redesigned and tested the optical, mechanical and electrical systems of a novel hemodynamic imaging system, resulting in a signal-noise ratio increase.</p>
-      <p>Additionally, I proposed and integrated thermal imaging functionality into the system for complete metabolic biomarker monitoring, as outlined in a conference presentation and publication.</p>
+      <p>I improved the signal efficiency and captured data quality of a novel hemodynamic imaging system by independently designing experiments in order to effectively redesign the mechanical, optical and electrical subsystems.</p>
+      <p>Additionally, I proposed and integrated thermal imaging functionality into the system for complete metabolic biomarker monitoring. This research resulted in authoring and presenting an academic paper on the topic.</p>
       <p>Lastly, I investigated the electrical and optical requirements for implementation of multispectrality in order for the system to gather deeper blood nutrient data.</p>
       
-      <p id="skills">Skills Used: SolidWorks, Matlab, Arduino, circuit design and analysis, PCB design, machining, 3D printing, signal processing, experiment design, academic writing, communication/presentation skills </p>
-      <p id="date">May-Dec 2016, Waterloo ON.</p>
+      <p id="skills">Skills Used: SolidWorks, Matlab, Arduino, circuit design and analysis, PCB design, machining, 3D printing, signal processing, experiment design, academic writing, communication</p>
+      <p id="date">May-Dec 2016, University of Waterloo, Waterloo ON.</p>
       
     </div>
   </div>
-  <!-- END OF EXPERIENCE MODALS -->
-  
-<!-- ------------ END OF EXPERIENCE SECTION ------------------ -->
-
-
-  
-  
-<!-- --------------- PROJECTS ---------------- -->
-  <div class="row" id="bg"> <!-- bg has green background and white text -->
-
-    <div class="row">
-      <h2 class="col-sm-12">projects</h2> <!-- title -->
-    </div>
-    
-    <!-- PROJECT CARDS -->
-    <div class="row" id="projects">
-      <div class="col-sm-12 text-center">
-      
-        <div class="card">
-          <img src="icons/poweredarm.png" alt="Powered Arm Logo"/>
-          <h3>Powered Arm</h3>
-        </div>
-        
-        <div class="card">
-          <img src="icons/natalnet-1.png" alt="NatalNet Logo"/>
-          <h3>NatalNet</h3>
-        </div>
-        
-        <div class="card">
-          <img src="icons/antifreeze.png" alt="AntiFreeze Logo"/>
-          <h3>AntiFreeze</h3>
-        </div>
-        
-        <div class="card">
-          <img src="icons/shelmet.png" alt="Shelmet cartoon"/>
-          <h3>The Shelmet</h3>
-        </div>
-        
-        <div class="card">
-          <img src="icons/furniture.png" alt="Tools cartoon"/>
-          <h3>Furniture Design</h3>
-        </div>
-        
-        <div class="card">
-          <img src="icons/website.png" alt="HTML symbol"/>
-          <h3>Website</h3>
-        </div>
-        
-      </div>
-    </div>
-    <!-- END OF PROJECT CARDS -->
-
-  </div>
+  <!-- END OF EXPERIENCE -->
 
   <!-- PROJECT MODALS -->
+  <div id="stairs" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <h4>"Stair Tracker":</h4>
+      <h5>University of Waterloo, Signal Processing Project</h5>
+      
+      <img src="img/stairdata.jpg" alt="A photo of captured stair-climbing gyroscope data."/> 
+      
+      <h6>> Algorithm Developer</h6>
+      <p>I took a key role in developing various algorithms in Python (Jupyter Notebook) in order to handle, process, and plot accelerometer data captured from a subject's phone as they climbed stairs.</p>
+      <p>I developed custom functions and libraries to perform analysis and calculations on the data, such as filtering noise in the time and frequency domain, and then presented my algorithm design decisions and recommendations.</p>
+      
+      <p id="skills">Skills Used: Python, Matlab, signal processing, algorithm design, teamwork, technical communication and presentation</p>
+      <p id="date">2017, Waterloo ON.</p>
+      
+    </div>
+  </div>
+
   <div id="poweredarm" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
@@ -188,14 +257,14 @@
       <h4>"Cybathlon Powered Arm Team":</h4>
       <h5>University of Waterloo Biomechatronics Club</h5>
       
-      <!--<img src="" alt=""/> commented until I can get this photo -->
+      <img src="img/arm2017.jpeg" alt="A recent pic of the team's mechanical arm."/> 
       
       <h6>> Mechanical Subteam Member</h6>
       <p>Took on a project management role as a more experienced member, overseeing successful 3D printing of the first prototype for the powered, prosthetic lower arm and hand and setting goals for the 2nd prototype.</p>
       <p>I began determining requirements and constraints for a 2nd prototype chassis, including working on engineering sketches, CAD and a preliminary finger-control system.</p>
       
       <p id="skills">Skills Used: SolidWorks (CAD), 3D Printing, prototype design, teamwork, project management</p>
-      <p id="date">Jan 2016-Present, Waterloo ON.</p>
+      <p id="date">2016, Waterloo ON.</p>
       
     </div>
   </div>
@@ -215,9 +284,9 @@
       <p>NatalNet is an SMS and web based solution intended to reduce child and maternal mortality rates in rural Bangladesh by empowering and connecting pregnant women to the health information and care they require.</p>
       <p>NatalNet won the 1st place grand prize and the Google API Implementation prize.</p>
       <p>Throughout the Hackathon project I assisted with both back and front end development, streamlining the sharing of information between the two and integrating our databse API into the application.</p>
-      <p>I also communicated NatalNet's scope, impact and uniqueness to 12 judges from various industries in the closing pitch competition.</p>
+      <p>I also managed the project requirements, users and functions, and then communicated NatalNet's scope, impact and uniqueness to 12 judges from various industries in the closing pitch competition.</p>
       
-      <p id="skills">Skills Used: Javascript (Node.js), HTML/CSS, teamwork, public speaking, app design</p>
+      <p id="skills">Skills Used: Javascript (Node.js), HTML/CSS, teamwork, project management, public speaking, app design</p>
       <p id="date">Nov 2016, Kitchener ON.</p>
       
     </div>
@@ -228,7 +297,7 @@
       <span class="close">&times;</span>
       
       <h4>"AntiFreeze":</h4>
-      <h5>University of Waterloo, Freezing of Gait Project</h5>
+      <h5>University of Waterloo, Freezing of Gait Intervention Project</h5>
       
       <!-- commented until i get this photo <img src="" alt=""/> -->
       
@@ -250,7 +319,7 @@
       <h4>"The Shelmet":</h4>
       <h5>University of Waterloo, Global Health Design Project</h5>
       
-      <h6>> Project Manager and Team Member</h6>
+      <h6>> Project Manager</h6>
       
       <p>I organized team meetings, developed project requirements and problem specifications, set and maintained deadlines and goals, communicated benchmarks to the team and delegated subtasks to individual members in order to produce a portable, collapsible and cooling motorcycle helmet intended to increase the use of head protection in urban Nigeria.</p>
       <p>I assisted in concept-generation, presentation, testing and manufacture of the prototypes, specifically the fabrication of the carbon-fibre helmet shell by hand after researching various manufacturing methods and materials.</p>
@@ -294,43 +363,7 @@
       
     </div>
   </div>
-  <!-- END OF PROJECT MODALS -->
-
-<!-- ------------- END OF PROJECTS ---------------- -->
-
-
-
-<!-- ---------------- HONOURS --------------------- -->
-  <div class="row" id="none">
-  
-    <div class="row">
-      <h2 class="col-sm-12">honours</h2> <!-- title -->
-    </div>
-    
-    <!-- HONOURS CARDS -->
-    <div class="row" id="honours">
-      <div class="col-sm-12 text-center">
-      
-        <div class="card">
-          <img src="icons/book.png" alt="Book cartoon"/>
-          <h3>Publications</h3>
-        </div>
-        
-        <div class="card">
-          <img src="icons/trophy.png" alt="Trophy cartoon"/>
-          <h3>Awards</h3>
-        </div>
-        
-        <div class="card">
-          <img src="icons/star.png" alt="Star cartoon"/>
-          <h3>Honours</h3>
-        </div>
-        
-      </div>
-    </div>
-    <!-- END OF HONOURS CARDS -->
-    
-  </div>
+  <!-- END OF PROJECT -->
 
   <!-- HONOURS MODALS -->
   <div id="publications" class="modal">
@@ -339,7 +372,7 @@
       
       <h4>Publications</h4>
       <ol>
-        <li>M. Wilson, R. Amelard, D. Clausi and A. Wong. "Co-integrating thermal and hemodynamic imaging for physiological monitoring," Journal of Computational Vision and Imaging Systems, 2 October 2016. <a href="http://openjournals.uwaterloo.ca/index.php/vsl/article/view/111/97" target="_blank">Read it here!</a></li>
+        <li>M. Wilson, R. Amelard, D. Clausi and A. Wong. "Co-integrating thermal and hemodynamic imaging for physiological monitoring," Journal of Computational Vision and Imaging Systems, 2 October 2016. <a href="http://openjournals.uwaterloo.ca/index.php/vsl/article/view/111/97" target="_blank">Read it here!</a></br></br>ABSTRACT: Photoplethysmographic imaging (PPGI) has gained popularity for non-intrusive cardiovascular monitoring. However, certain symptoms (e.g., fever) may not be easily detectable using cardiovascular biomarkers. Here, we investigate the co-integration of PPGI and thermal imaging to create a non-contact, widefield, multimodal physiological monitoring system. To achieve strong PPGI performance, high-power infrared LED stability was investigated by evaluating two LED driver boards. Results show that the multimodal imaging system was able to acquire spatially consistent hemodynamic pulsatility and heat distributions in a case study. This multimodal system may lead to improved systemic disease detection and monitoring.</li>
       </ol>
       
     </div>
@@ -354,6 +387,7 @@
       <h6>2017</h6>
       <ol>
         <li>Natural Sciences and Engineering Research Council of Canada (NSERC) Experience Award</li>
+        <li>University of Waterloo President's International Experience Award</li>
       </ol>
       <h6>2016</h6>
       <ol>
@@ -376,13 +410,18 @@
       
       <h4>Honours</h4>
       
-      <h6>2016</h6>
+      <h6>2017</h6>
+      <ol>
+        <li>Nominee for "Co-op of the Year 2017" award</li>
+        <li>Highest Level of Co-op Performance Evaluation</li>
+      </ol><h6>2016</h6>
       <ol>
         <li>Biomedical Engineering Term Dean's Honours List</li>
         <li>University of Waterloo Orientation Week Leader and Event Director</li>
         <li>Softball Canada Coaching Certification</li>
         <li>Emergency First Aid and CPR "C" Certification</li>
         <li>WHMIS 2015 Certifcation</li>
+        <li>Highest Level of Co-op Performance Evaluation</li>
       </ol>
       <h6>2015</h6>
       <ol>
@@ -393,41 +432,28 @@
     </div>
   </div>
   <!-- END OF HONOURS MODALS -->
-  
-<!-- ---------------- END OF HONOURS SECTION --------------- -->
+
+  <!-- END OF MODALS -->
 
 
 
-<!-- --------------- CONTACT REMINDER ----------------- -->
-  <div class="row" id="bg"> 
-    <div class="col-sm-12 text-center" id="contact">
-    
-      <p>Check out my <a href="MackenzieWilsonResume.pdf" download="MackenzieWilsonResume.pdf" target="_blank">resume</a> or <a href="https://www.linkedin.com/in/mackenzieswilson/" target="_blank">LinkedIn</a> for more.</p>
-      <p>Don't hesitate to reach out via <a href="mailto:mackenziewilson@runbox.com" target="_top">email</a>, or even <a href="https://twitter.com/m_s_wilson_" target="_blank">Twitter</a>!</p>
-      
-    </div>
-  </div>
-<!-- -------------- END OF CONTACT REMINDER ----------- -->
 
 
-<!-- ***************** END OF MAIN CONTENT ******************* -->
-  
-  
-  
 <!-- ------------- FOOTER ---------------- -->
-  <div class="row" id="none"> 
+  <div class="row"> 
     <div class="col-sm-12 text-center" id="footer">
-      <p>Made by Mackenzie S. Wilson. Last updated 2017-04-14.</p>
+      <p>&copy; Mackenzie Skye Wilson. Last update: January 2018.</p>
     </div>
   </div>
 <!-- ------------- END OF FOOTER ---------------- -->
 
 
 
-<!-- ----------- JAVASCRIPT LINKS ----------- -->
+
+  <!-- ----------- JAVASCRIPT LINKS ----------- -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!--loads jQuery-->
   <script src="app.js"></script> <!-- loads app.js -->
-<!-- ----------- END JS LINKS --------------- -->
+  <!-- ----------- END JS LINKS --------------- -->
   
 </body>
 

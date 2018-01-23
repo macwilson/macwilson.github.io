@@ -1,17 +1,169 @@
+/* GENERAL STUFF */
 * {
     margin: 0;
     padding: 0;
 }
 
 html, body {
- width: 100%;
+    width: 100%;
     height: 100%;
     margin: 0px;
-    padding: 0px;
+    padding: 0;
     overflow-x: hidden;
     
 }
+/* --------------- */
 
+/* HEADER STUFF */
+#header {
+    background-image: url("img/header.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    padding: 2em 0 10em 0;
+}
+
+#header h1 {
+    font-size: 9vw;
+    font-family: "Merriweather", serif;
+    margin-bottom: 0.6em;
+    margin-top: 5vw;
+    color: #defffb;
+    padding: 1em;
+}
+
+#header #links a {
+    padding: 1vw;
+    margin-bottom: 3vw;
+
+    position: relative;
+    display: inline-block;
+}
+
+#header i {
+    color: #defffb;
+}
+
+#header i:hover {
+    color: #e57067;
+}
+/* --------------------*/
+
+/* DESCRIPTION STUFF */
+#description p {
+    color: #defffb;
+    font-size: 250%;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 15%;
+    margin: 5em 0 2em 0;
+    font-weight: 100;
+ 
+}
+
+#description a {
+    text-decoration: underline;
+    color: #defffb;
+}
+
+#description a:hover {
+    color: #e57067;
+}
+
+#description {
+    background-color: #0a2a51;
+    padding-top: 20px;
+    margin: 0;
+}
+/* --------------------- */
+
+/* ACTUAL CONTENT LIKE CARDS */
+#content {
+    background-color: #0a2a51;
+    padding: 10px;
+}
+
+#content h2 {
+    color: #defffb;
+    margin: 2em 2em 1em 1em;
+    font-family: "Merriweather", serif;
+    font-size: 6vw;
+    padding-top: 2em;
+
+}
+
+#contact #links a {
+    padding: 1vw;
+    margin-top: 12em;
+    margin-bottom: 10em;
+    position: relative;
+    display: inline-block;
+}
+
+#contact i {
+    color: #defffb;
+}
+
+#contact i:hover {
+    color: #e57067;
+}
+
+    /* cards */
+.card img {
+    position: inline;
+    max-width: 15%;
+    height: auto;
+    width: auto;
+    margin-right: 5%;
+    text-align: left;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    margin: 2%;
+    width: 43%;
+    min-width: 400px;
+    min-height: 16em;
+    border-radius: 2px;
+    vertical-align: top;
+    padding: 1% 2%;
+    border-top: 1px solid #defffb;
+    border-bottom: 1px solid #defffb;
+}
+
+.card:hover {
+    border: none;
+    border-right: 1px solid #e57067;
+    border-left: 1px solid #e57067;
+    color: #e57067;
+    cursor: pointer;
+}
+
+.card h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 400%;
+    color: #defffb;
+    text-align: center;
+    padding-top: 2%;
+    font-weight: 200;
+}
+
+.card #company {
+    font-family: "Montserrat", sans-serif;
+    font-size: 200%;
+    color: #e57067;
+    text-align: left;
+}
+
+#experience .card {
+    min-height: 22em;
+}
+
+/* --------------------- */
+
+
+
+/* MODAL STUFF */ 
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -27,218 +179,77 @@ html, body {
 }
 
 /* Modal Content */
-.modal-content {
-    background-color: #fefefe;
+.modal .modal-content {
+    background-color: #fff;
     margin: auto;
     padding: 20px;
-    border: 5px solid #1BA39C;
+    border: 5px solid #000;
     width: 80%;
     max-height: 90%;
     overflow: scroll;
 }
 
 /* The Close Button */
-.close {
-    color: #1BA39C;
-    float: right;
-    font-size: 28px;
+.modal .modal-content .close {
+    float: right ;
+    background-color: #0a2a51;
+    color: #fff;
+    padding: 0 15px 10px 15px;
+    border-radius: 2px;
+    font-size: 3em;
+    text-align: center;
+    vertical-align: center;
     font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: #1BA39C;
+    color: #0a2a51;
     text-decoration: none;
     cursor: pointer;
-}
-
-#bg {
-    background-color: #1BA39C;
-    padding: 20px 0;
-    margin: 0;
-}
-
-#bg h1 {
-    font-size: 10vw;
-    font-family: "Merriweather", serif;
-    margin-bottom: 0.5em;
-    margin-top: 0.8em;
-    color: #FFF;
-}
-
-#bg #links a {
-    background-color: #FFF;
-    padding: 25px;
-    border-radius: 10px;
-    margin: 8px;
-    box-shadow: 0 3px rgba(0,0,0,.3);
-    position: relative;
-    display: inline-block;
-}
-
-#bg #links a:hover {
-    bottom: 2px;
-}
-
-#bg i {
-    color: #1BA39C;
-}
-
-#bg #description {
-    color: #FFF;
-    font-size: 280%;
-    font-family: "Quicksand", sans-serif;
-    padding: 0 10%;
-    margin: 5em 0 5em 0;
-    font-weight: 100;
-}
-
-#bg #contact {
-    color: #FFF;
-    font-size: 250%;
-    font-family: "Quicksand", sans-serif;
-    padding: 5% 10%;
-    font-weight: 100;
-    background-color: #1BA39C;
-}
-
-#bg #contact a {
-    text-decoration: none;
-    color: #FFF;
-    font-weight: 900;
-    position: relative;
-    background-color: #1BA39C;
-}
-
-#bg #contact a:hover {
-    text-decoration: underline;
-    color: #FFF;
-    font-weight: 900;
-    bottom: 2px;
-}
-
-#bg .card {
-    background-color: #FFF;
-    box-shadow: 0 8px rgba(0,0,0,.3);
-}
-
-#bg h3 {
-    color: #1BA39C;
-}
-
-.card img {
-    position: relative;
-    margin: 3% 0;
-    height: 55%;
-    vertical-align: center;
-}
-
-.card {
-    position: relative;
-    display: inline-block;
-    margin: 5% 1%;
-    width: 28%;
-    min-width: 400px;
-    height: 26em;
-    border-radius: 15px;
-    vertical-align: top;
-    padding: 2% 0;
-}
-
-.card:hover {
-    bottom: 2px;
-}
-
-.card h3 {
-    font-family: "Quicksand", sans-serif;
-    margin: 5px 2px 1% 2px;
-    font-size: 35pt;
-}
-
-#none #footer p {
-  font-size: 120%;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-#none h2 {
-    color: #1BA39C;
-    margin: 2em 2em 1em 1em;
-    font-family: "Merriweather", serif;
-    font-size: 6vw;
-}
-
-#bg h2 {
-    color: #FFF;
-    margin: 2em 2em 1em 1em;
-    font-family: "Merriweather", serif;
-    font-size: 6vw;
-}
-
-#none .card {
-    background-color: #1BA39C;
-    box-shadow: 0 8px rgba(0,0,0,.3);
-}
-
-#none h3 {
-    color: #FFF;
-    padding-top: 5px;
 }
 
 .modal h4 {
     position: relative;
     display: inline-block;
-    color: #1BA39C;
-    font-family: "Merriweather", serif;
+    color: #e57067;
+    font-family: "Montserrat", serif;
     font-size: 3em;
+    font-weight: 400;
 }
 
-.modal h4:hover {
+.modal #link:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .modal h5 {
     position: relative;
     display: inline-block;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 3em;
     margin-bottom: 1em;
-}
-
-.modal a {
-    color: #1BA39C;
-}
-
-.modal a:hover {
-    color: #1BA39C;
-    text-decoration: underline;
+    color: #0a2a51;
+    font-weight: 200;
 }
 
 .modal p {
-    font-family: "Quicksand", sans-serif;
-    font-size: 1.8em;
-    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    color: #0a2a51;
+    font-weight: 200;
 }
 
 .modal #skills {
-    color: #1BA39C;
-    font-weight: 800;
+    color: #e57067;
+    font-weight: 400;
     padding: 15px;
 }
 
-.modal .modal-content .close {
-    float: right ;
-    color: #1BA39C;
-    padding: 0 15px 10px 15px;
-    border-radius: 8px;
-    font-size: 3em;
-    opacity: 0.5;
-    border: 2px solid #1BA39C;
-}
-
 .modal #date {
-    color: #787777;
+    color: #0a2a51;
     font-style: italic;
+    opacity: 0.5;
 }
 
 .modal img {
@@ -250,22 +261,32 @@ html, body {
     padding: 20px;
     position: relative;
     display: block;
-    border: 2px solid #1BA39C;
+    border: 2px solid #0a2a51;
     border-radius: 20px;
     margin-bottom: 1em;
 }
 
 .modal h6 {
-    color: #1BA39C;
-    font-family: "Merriweather", serif;
+    color: #0a2a51;
+    font-family: "Montserrat", serif;
     font-size: 2em;
-    font-style: italic;
 }
+/* ------------------- */
+
+
+
+#footer p {
+  font-size: 120%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
 
 ol {
     margin-left: 35px;
     font-size: 20pt;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 #awards h6 {
@@ -278,6 +299,10 @@ ol {
 
 #publications ol {
     margin-top: 1em;
+}
+
+#publications a {
+    color: #e57067;
 }
 
 
@@ -344,4 +369,4 @@ ol {
         margin-left: 40px;
     }
 
-    }
+}
