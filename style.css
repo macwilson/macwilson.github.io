@@ -115,7 +115,7 @@ html, body {
     /* cards */
 .card img {
     position: inline;
-    max-width: 15%;
+    max-width: 25%;
     height: auto;
     width: auto;
     margin-right: 5%;
@@ -309,7 +309,7 @@ ol {
     /* "mackenzie wilson" banner */
     #header h1 {
         font-size: 16vw;
-        padding: 0;
+        padding: 0 10%;
     }
 
     /* top contact icons */
@@ -320,15 +320,40 @@ ol {
     /* about me description paragraph*/
     #description p {
         font-size: 500%;
+        padding: 0 5em;
     }
 
     /* "experience" subtitle, etc */
     #content h2 {
-        font-size: 10vw;
+        font-size: 12vw;
     }
 
+    /* job title on card */
     .card h3 {
         font-size: 70pt;
+    }
+
+    /* icon photo on card  */ 
+    .card img {
+        position: inline;
+        max-width: 50%;
+        height: auto;
+        width: 50%;
+        margin-right: 5%;
+        text-align: left;
+    }
+
+    /* general card size/shape */
+    .card {
+        width: 90%;
+        min-width: 300px;
+        min-height: 16em;
+        vertical-align: center;
+        border: 1px solid #defffb;
+    }
+    .card:hover {
+        border: 1px solid #e57067;
+        cursor: pointer;
     }
 
     /* bottom contact icons */
@@ -341,31 +366,20 @@ ol {
         font-size: 250%;
     }
 
-    /* general card size/shape */
-    .card {
-        width: 90%;
-        min-width: 300px;
-        height: 48em;
-    }
-
-    /* icon photo on card  */ 
-
+    /* modal close button */
     .modal .modal-content .close {
         padding: 0 15px 15px 15px;
-        border-radius: 2px;
         font-size: 5em;
-        text-align: center;
-        vertical-align: center;
-        font-weight: bold;
-
         position: fixed;
         right: 13%;
     }
 
-/*
-#bg #contact {
-    font-size: 380%;
- }
+    /* modal size */
+    .modal .modal-content {
+        width: 95%;
+    }
+
+    /* modal content styles */
     .modal h4 {
         font-size: 5em;
     }
@@ -382,17 +396,14 @@ ol {
         font-size: 2.8em;
     }
 
-    .modal .modal-content .close {
-        font-size: 5em;
-    }
-
-    #none #footer p {
-        font-size: 200%;
+    .modal img {
+        width: 95%;
+       
     }
 
     ol {
         font-size: 40pt;
         margin-left: 40px;
     }
-*/
+
 }
