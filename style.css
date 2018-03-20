@@ -45,6 +45,7 @@ html, body {
 #header i {
     color: #defffb;
     font-size: 6vw;
+    padding: 1vw;
 }
 
 #header i:hover {
@@ -106,6 +107,7 @@ html, body {
 #contact i {
     color: #defffb;
     font-size: 6vw;
+    padding: 1vw;
 }
 
 #contact i:hover {
@@ -286,11 +288,10 @@ ol {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
     position: relative;
     display: block;
-    border: 2px solid #0a2a51;
-    border-radius: 20px;
+    border: 3px solid #e57067;
+    border-radius: 2px;
     margin-bottom: 1em;
 }
 
@@ -304,18 +305,18 @@ ol {
 
 
 
-
+/* FOR MOBILE SITE */
 @media only screen and (max-device-width: 480px) {
     /* "mackenzie wilson" banner */
     #header h1 {
         font-size: 16vw;
-        padding: 50% 0;
+        padding: 20% 0;
     }
 
     /* top contact icons */
     #header i {
-        font-size: 13vw;
-        padding: 1vw;
+        font-size: 14vw;
+        padding: 2vw;
     }
 
     /* about me description paragraph*/
@@ -337,7 +338,7 @@ ol {
     /* icon photo on card  */ 
     .card img {
         width: 50%;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     /* general card size/shape */
@@ -355,8 +356,8 @@ ol {
 
     /* bottom contact icons */
     #contact i {
-        font-size: 13vw;
-        padding: 1vw;
+        font-size: 14vw;
+        padding: 2vw;
     }
 
     /* copyright footer at very bottom */
@@ -366,7 +367,7 @@ ol {
 
     /* modal close button */
     .modal .modal-content .close {
-        padding: 0 20px 15px 20px;
+        padding: 0 30px 25px 30px;
         font-size: 8em;
         position: fixed;
         right: 5%;
@@ -375,8 +376,8 @@ ol {
     /* modal size */
     .modal .modal-content {
         width: 95%;
-        margin: 0;
-        padding: 1em;
+        margin: auto;
+        padding: 2em;
     }
 
     /* modal content styles */
@@ -394,9 +395,10 @@ ol {
     .modal h6 {font-size: 4em;}
 
 
-    ol {
+    .modal ol {
         font-size: 40pt;
         margin-left: 50px;
     }
 
 }
+/* -------------------------------- */
