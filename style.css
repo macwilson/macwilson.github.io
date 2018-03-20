@@ -309,12 +309,13 @@ ol {
     /* "mackenzie wilson" banner */
     #header h1 {
         font-size: 16vw;
-        padding: 0 10%;
+        padding: 0 50%;
     }
 
     /* top contact icons */
     #header i {
         font-size: 13vw;
+        padding: 1vw;
     }
 
     /* about me description paragraph*/
@@ -335,12 +336,7 @@ ol {
 
     /* icon photo on card  */ 
     .card img {
-        position: inline;
-        max-width: 50%;
-        height: auto;
         width: 50%;
-        margin-right: 5%;
-        text-align: left;
     }
 
     /* general card size/shape */
@@ -349,10 +345,10 @@ ol {
         min-width: 300px;
         min-height: 16em;
         vertical-align: center;
-        border: 1px solid #defffb;
+        border: 10px solid #defffb;
     }
     .card:hover {
-        border: 1px solid #e57067;
+        border: 10px solid #e57067;
         cursor: pointer;
     }
 
@@ -376,30 +372,21 @@ ol {
 
     /* modal size */
     .modal .modal-content {
-        width: 95%;
+        width: 100%;
+        margin: 0;
     }
 
     /* modal content styles */
-    .modal h4 {
-        font-size: 5em;
-    }
+    .modal h4 {font-size: 5em;}
 
-    .modal h5 {
-        font-size: 5em;
-    }
+    .modal h5 {font-size: 5em;}
 
-    .modal h6 {
-        font-size: 4em;
-    }
+    .modal p {font-size: 4em;}
 
-    .modal p {
-        font-size: 2.8em;
-    }
+    .modal img {width: 90%;}
 
-    .modal img {
-        width: 95%;
-       
-    }
+    .modal h6 {font-size: 4em;}
+
 
     ol {
         font-size: 40pt;
