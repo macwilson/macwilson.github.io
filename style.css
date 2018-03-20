@@ -12,7 +12,6 @@ html, body {
     overflow-x: hidden;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    
 }
 /* --------------- */
 
@@ -348,6 +347,7 @@ ol {
         min-height: 16em;
         vertical-align: center;
         border: 3px solid #defffb;
+        border-radius: 1px;
     }
     .card:hover {
         border: 3px solid #e57067;
@@ -397,7 +397,7 @@ ol {
 
     .modal ol {
         font-size: 40pt;
-        margin-left: 50px;
+        margin-left: 60px;
     }
 
 }
