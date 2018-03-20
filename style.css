@@ -79,7 +79,7 @@ html, body {
 }
 /* --------------------- */
 
-/* ACTUAL CONTENT LIKE CARDS */
+/* ACTUAL CONTENT */
 #content {
     background-color: #0a2a51;
     padding: 10px;
@@ -94,6 +94,7 @@ html, body {
 
 }
 
+    /* Contact bar at bottom */
 #contact #links a {
     padding: 1vw;
     margin-top: 12em;
@@ -104,6 +105,7 @@ html, body {
 
 #contact i {
     color: #defffb;
+    font-size: 6vw;
 }
 
 #contact i:hover {
@@ -158,15 +160,36 @@ html, body {
     text-align: left;
 }
 
-#experience .card {
-    min-height: 22em;
+    /* Copyright footer */
+#footer p {
+  font-size: 120%;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
+
+    /* specifics for "honours" section */
+ol {
+    margin-left: 35px;
+    font-size: 20pt;
+    font-family: "Montserrat", sans-serif;
+    color: #0a2a51;
+}
+
+#awards h6 {margin-top: 1em;}
+
+#otherhonours h6 {margin-top: 1em;}
+
+#publications ol {margin-top: 1em;}
+
+#publications a {color: #e57067;}
+
 
 /* --------------------- */
 
 
 
 /* MODAL STUFF */ 
+    /* Modal Set-up */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -181,7 +204,6 @@ html, body {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content */
 .modal .modal-content {
     background-color: #fff;
     margin: auto;
@@ -192,9 +214,7 @@ html, body {
     overflow: scroll;
 }
 
-/* The Close Button */
 .modal .modal-content .close {
-    float: right ;
     background-color: #0a2a51;
     color: #fff;
     padding: 0 15px 10px 15px;
@@ -203,6 +223,9 @@ html, body {
     text-align: center;
     vertical-align: center;
     font-weight: bold;
+
+    position: fixed;
+    right: 12%;
 }
 
 .close:hover,
@@ -212,6 +235,8 @@ html, body {
     cursor: pointer;
 }
 
+
+    /* Modal Content */
 .modal h4 {
     position: relative;
     display: inline-block;
@@ -278,73 +303,66 @@ html, body {
 
 
 
-#footer p {
-  font-size: 120%;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-
-
-ol {
-    margin-left: 35px;
-    font-size: 20pt;
-    font-family: "Montserrat", sans-serif;
-    color: #0a2a51;
-}
-
-#awards h6 {
-    margin-top: 1em;
-}
-
-#otherhonours h6 {
-    margin-top: 1em;
-}
-
-#publications ol {
-    margin-top: 1em;
-}
-
-#publications a {
-    color: #e57067;
-}
-
 
 
 @media only screen and (max-device-width: 480px) {
+    /* "mackenzie wilson" banner */
     #header h1 {
-    font-size: 15vw;
-    
+        font-size: 16vw;
+        padding: 0;
     }
-        .card {
-            width: 90%;
-            min-width: 300px;
-            height: 48em;
-        }
 
-        #bg h1 {
-            font-size: 900%;
-        }
+    /* top contact icons */
+    #header i {
+        font-size: 13vw;
+    }
 
-        #none h2 {
-            font-size: 700%;
-        }
+    /* about me description paragraph*/
+    #description p {
+        font-size: 500%;
+    }
 
-        #bg h2 {
-            font-size: 700%;
-        }
+    /* "experience" subtitle, etc */
+    #content h2 {
+        font-size: 10vw;
+    }
 
-        .card h3 {
-        font-size: 60pt;
-}
-        .card img {
-            height: 55%;
-        }
+    .card h3 {
+        font-size: 70pt;
+    }
 
-        #bg #description {
-    font-size: 400%;
-}
+    /* bottom contact icons */
+    #contact i {
+        font-size: 13vw;
+    }
 
+    /* copyright footer at very bottom */
+    #footer p {
+        font-size: 250%;
+    }
+
+    /* general card size/shape */
+    .card {
+        width: 90%;
+        min-width: 300px;
+        height: 48em;
+    }
+
+    /* icon photo on card  */ 
+
+    .modal .modal-content .close {
+        padding: 0 15px 15px 15px;
+        border-radius: 2px;
+        font-size: 5em;
+        text-align: center;
+        vertical-align: center;
+        font-weight: bold;
+
+        position: fixed;
+        right: 13%;
+    }
+
+/*
 #bg #contact {
     font-size: 380%;
  }
@@ -376,5 +394,5 @@ ol {
         font-size: 40pt;
         margin-left: 40px;
     }
-
+*/
 }
