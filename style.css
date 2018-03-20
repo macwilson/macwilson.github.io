@@ -10,6 +10,8 @@ html, body {
     margin: 0px;
     padding: 0;
     overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     
 }
 /* --------------- */
@@ -42,6 +44,7 @@ html, body {
 
 #header i {
     color: #defffb;
+    font-size: 6vw;
 }
 
 #header i:hover {
@@ -287,6 +290,7 @@ ol {
     margin-left: 35px;
     font-size: 20pt;
     font-family: "Montserrat", sans-serif;
+    color: #0a2a51;
 }
 
 #awards h6 {
@@ -308,6 +312,10 @@ ol {
 
 
 @media only screen and (max-device-width: 480px) {
+    #header h1 {
+    font-size: 15vw;
+    
+    }
         .card {
             width: 90%;
             min-width: 300px;
