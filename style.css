@@ -97,10 +97,19 @@ html, body {
     /* Contact bar at bottom */
 #contact #links a {
     padding: 1vw;
-    margin-top: 16em;
+    margin-top: 5em;
     margin-bottom: 10em;
     position: relative;
     display: inline-block;
+}
+
+#contact p {
+    color: #defffb;
+    font-size: 250%;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 15%;
+    margin-top: 10em;
+    font-weight: 100;
 }
 
 #contact i {
@@ -166,6 +175,18 @@ html, body {
   font-size: 120%;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+    /* Back to top link. */
+#backtotop {
+    color: #defffb;
+    font-size: 150%;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: underline;
+}
+
+#backtotop:hover {
+    color: #e57067;
 }
 
     /* specifics for "honours" section */
